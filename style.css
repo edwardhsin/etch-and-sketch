@@ -1,0 +1,34 @@
+body {
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+}
+
+.centerInputSizeDiv {
+    text-align: center;
+}
+
+
+.grid {
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    
+    width: 650px;
+    height: 650px;
+    min-width: 650px;
+    min-height: 650px;
+    margin-right: 25px;
+    margin-left: 550px;
+
+    
+    /* these 2 together allows the div to make grid line by line left to right, then start
+    new line under first line from right 
+    ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    */
+    display: flex;
+    flex-wrap: wrap;
+}
+
